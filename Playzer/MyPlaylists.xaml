@@ -1,0 +1,18 @@
+﻿<Window x:Class="Playzer.MyPlaylists"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Playzer"
+        mc:Ignorable="d"
+        Title="MyPlaylists" Height="450" Width="800">
+    <Grid x:Name="mainGrid">
+        <Button Content="Create new playlist" Name="btnNewPlaylist"  HorizontalAlignment="Center" VerticalAlignment="Top" Margin="321,20,321,0" Width="150" Click="Button_Click"/>
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="0,45">
+            <StackPanel Orientation="Vertical" x:Name="stack"></StackPanel>
+        </ScrollViewer>
+        <Button x:Name="loadMoreButton" Content="Load more" HorizontalAlignment="Center" IsEnabled="False" VerticalAlignment="Bottom" Margin="15" Width="150" Click="loadMoreButton_Click"/>
+
+    </Grid>
+   
+</Window>

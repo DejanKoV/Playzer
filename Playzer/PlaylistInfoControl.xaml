@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="Playzer.PlaylistInfoControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Playzer"
+             mc:Ignorable="d" 
+             Width="210" MinWidth="210"  MouseEnter="UserControl_MouseEnter" MouseLeave="UserControl_MouseLeave"  MouseLeftButtonDown="UserControl_MouseLeftButtonDown">
+    <StackPanel Margin="5">
+        <Image x:Name="imageCover" HorizontalAlignment="Stretch" Height="100" VerticalAlignment="Top" Width="200"/>
+        <TextBlock x:Name="titleLbl" HorizontalAlignment="Center" Margin="5" TextAlignment="Center" FontSize="14" FontWeight="Bold" TextWrapping="Wrap" Text="Album name" VerticalAlignment="Bottom"/>
+        <TextBlock x:Name="songsCountLbl" HorizontalAlignment="Center" Margin="0" TextAlignment="Center" FontSize="14" TextWrapping="Wrap" Text="20 songs" VerticalAlignment="Bottom"/>
+    </StackPanel>
+</UserControl>

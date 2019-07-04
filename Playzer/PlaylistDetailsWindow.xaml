@@ -1,0 +1,15 @@
+﻿<Window x:Class="Playzer.PlaylistDetailsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Playzer"
+        mc:Ignorable="d"
+        Title="PlaylistDetailsWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="exportBtn" Content="Export" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="334,0,318,366" Width="140" Click="exportBtn_Click" Height="25"/>
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="0,81,0,0">
+            <StackPanel x:Name="container"></StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

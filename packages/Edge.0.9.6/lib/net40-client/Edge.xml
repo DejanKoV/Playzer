@@ -1,0 +1,473 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Edge</name>
+    </assembly>
+    <members>
+        <member name="T:Edge.EdgeMart">
+            <summary>
+            Represents an EdgeSpring EdgeMart and the settings used to access it.
+            </summary>
+        </member>
+        <member name="M:Edge.EdgeMart.#ctor(Edge.Url)">
+            <summary>
+            Creates a new instance of EdgeMart.
+            </summary>
+            <param name="url">Server and EdgeMart settings in the form of a Url.</param>
+        </member>
+        <member name="M:Edge.EdgeMart.#ctor(System.String)">
+            <summary>
+            Creates a new instance of EdgeMart.
+            </summary>
+            <param name="connectionString">Server and EdgeMart settings in the form of a connection string.</param>
+        </member>
+        <member name="M:Edge.EdgeMart.#ctor(System.Uri)">
+            <summary>
+            Creates a new instance of EdgeMart.
+            </summary>
+            <param name="uri">Server and EdgeMart settings in the form of a Uri.</param>
+        </member>
+        <member name="P:Edge.EdgeMart.Name">
+            <summary>
+            Gets the name of this EdgeMart.
+            </summary>
+        </member>
+        <member name="P:Edge.EdgeMart.AbsolutePath">
+            <summary>
+            Gets the path to the EdgeMart.
+            </summary>
+        </member>
+        <member name="P:Edge.EdgeMart.Server">
+            <summary>
+            Gets the url string for this EdgeMart.
+            </summary>
+        </member>
+        <member name="P:Edge.EdgeMart.AbsoluteUri">
+            <summary>
+            Gets the Uri for the server hosting the EdgeMart.
+            </summary>
+        </member>
+        <member name="P:Edge.EdgeMart.UrlString">
+            <summary>
+            Gets the url string for this EdgeMart.
+            </summary>
+        </member>
+        <member name="T:Edge.EdgeMart`1">
+            <summary>
+            Represents an EdgeMart and the default record type.
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Edge.EdgeMart`1.#ctor(Edge.Url)">
+            <summary>
+            Creates a new instance of EdgeMart.
+            </summary>
+            <param name="url">Server and EdgeMart settings in the form of a Url.</param>
+        </member>
+        <member name="M:Edge.EdgeMart`1.#ctor(System.String)">
+            <summary>
+            Creates a new instance of EdgeMart.
+            </summary>
+            <param name="connectionString">Server and EdgeMart settings in the form of a connection string.</param>
+        </member>
+        <member name="M:Edge.EdgeMart`1.#ctor(System.Uri)">
+            <summary>
+            Creates a new instance of EdgeMart.
+            </summary>
+            <param name="uri">Server and EdgeMart settings in the form of a Uri.</param>
+        </member>
+        <member name="T:Edge.EdgeSpringQueryProvider">
+            <summary>
+            Custom inmplementation of the Oinq query provider.
+            </summary>
+        </member>
+        <member name="M:Edge.EdgeSpringQueryProvider.#ctor(Edge.EdgeMart)">
+            <summary>
+            Initializes a new instance of EdgeSpringQueryProvider.
+            </summary>
+            <param name="source">IDataFile of type EdgeMart.</param>
+        </member>
+        <member name="M:Edge.EdgeSpringQueryProvider.Execute``1(Oinq.ITranslatedQuery)">
+            <summary>
+            Provides custom functionality on the Pig Query Provider.
+            </summary>
+            <param name="translatedQuery">An actionable query.</param>
+            <returns>A query result.</returns>
+        </member>
+        <member name="T:Edge.LinqExtensionMethods">
+            <summary>
+            Static class that contains the EdgeSpring Linq extension methods.
+            </summary>
+        </member>
+        <member name="M:Edge.LinqExtensionMethods.AsQueryable``1(Edge.EdgeMart)">
+            <summary>
+            Returns an isntance of IQueryable{{T}} for an EdgeMart.
+            </summary>
+            <typeparam name="T">The type of records in an EdgeMart.</typeparam>
+            <param name="edgeMart">The EdgeMart.</param>
+            <returns>An instance of IQueryable{{T}} for an EdgeMart.</returns>
+        </member>
+        <member name="M:Edge.LinqExtensionMethods.AsQueryable``1(Edge.EdgeMart{``0})">
+            <summary>
+            Returns an isntance of IQueryable{{T}} for an EdgeMart.
+            </summary>
+            <typeparam name="T">The type of records in an EdgeMart.</typeparam>
+            <param name="edgeMart">The EdgeMart.</param>
+            <returns>An instance of IQueryable{{T}} for an EdgeMart.</returns>
+        </member>
+        <member name="T:Edge.EdgeSpringApi">
+            <summary>
+            Proxy class for the EdgeSpring REST API.
+            </summary>
+        </member>
+        <member name="M:Edge.EdgeSpringApi.GetQueryResponse``1(Edge.Query,System.Uri)">
+            <summary>
+            Gets the results for a query against an EdgeSpring EdgeMart.
+            </summary>
+            <param name="query">The Query.</param>
+            <param name="requestUri">The URI of the request.</param>
+            <returns>The Query Response.</returns>
+        </member>
+        <member name="T:Edge.Query">
+            <summary>
+            Represents a query to be sent to the EdgeSpring API.
+            </summary>
+        </member>
+        <member name="M:Edge.Query.#ctor(System.String)">
+            <summary>
+            Initializes a new query object from the command text.
+            </summary>
+            <param name="queryText">query command text.</param>
+        </member>
+        <member name="P:Edge.Query.action">
+            <summary>
+            Gets the action name of the query.
+            </summary>
+        </member>
+        <member name="P:Edge.Query.otherscope">
+            <summary>
+            Gets the other scope node of the query.
+            </summary>
+        </member>
+        <member name="P:Edge.Query.query">
+            <summary>
+            Gets the query text.
+            </summary>
+        </member>
+        <member name="T:Edge.Scope">
+            <summary>
+            Placeholder of the otherscope property.
+            </summary>
+        </member>
+        <member name="T:Edge.ServerAddress">
+            <summary>
+            Represents an EdgeSpring server.
+            </summary>
+        </member>
+        <member name="M:Edge.ServerAddress.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of ServerAddress.
+            </summary>
+            <param name="host">The server's host name.</param>
+        </member>
+        <member name="M:Edge.ServerAddress.#ctor(System.String,System.Int32)">
+            <summary>
+            Initializes a new instance of ServerAddress.
+            </summary>
+            <param name="host">The server's host name.</param>
+            <param name="port">The server's port number.</param>
+        </member>
+        <member name="M:Edge.ServerAddress.Parse(System.String)">
+            <summary>
+            Parses a string representation of a server address.
+            </summary>
+            <param name="value">The string representation of a server address.</param>
+            <returns>A new instance of ServerAddress initialized with values parsed from the string.</returns>
+        </member>
+        <member name="M:Edge.ServerAddress.TryParse(System.String,Edge.ServerAddress@)">
+            <summary>
+            Tries to parse a string representation of a server address.
+            </summary>
+            <param name="value">The string representation of a server address.</param>
+            <param name="address">The server address (set to null if TryParse fails).</param>
+            <returns>True if the string is parsed succesfully.</returns>
+        </member>
+        <member name="M:Edge.ServerAddress.op_Equality(Edge.ServerAddress,Edge.ServerAddress)">
+            <summary>
+            Compares two server addresses.
+            </summary>
+            <param name="lhs">The first address.</param>
+            <param name="rhs">The other address.</param>
+            <returns>True if the two addresses are equal (or both are null).</returns>
+        </member>
+        <member name="M:Edge.ServerAddress.op_Inequality(Edge.ServerAddress,Edge.ServerAddress)">
+            <summary>
+            Compares two server addresses.
+            </summary>
+            <param name="lhs">The first address.</param>
+            <param name="rhs">The other address.</param>
+            <returns>True if the two addresses are not equal (or one is null and the other is not).</returns>
+        </member>
+        <member name="M:Edge.ServerAddress.Equals(Edge.ServerAddress)">
+            <summary>
+            Compares two server addresses.
+            </summary>
+            <param name="rhs">The other server address.</param>
+            <returns>True if the two server addresses are equal.</returns>
+        </member>
+        <member name="M:Edge.ServerAddress.Equals(System.Object)">
+            <summary>
+            Compares two server addresses.
+            </summary>
+            <param name="obj">The other server address.</param>
+            <returns>True if the two server addresses are equal.</returns>
+        </member>
+        <member name="M:Edge.ServerAddress.GetHashCode">
+            <summary>
+            Gets the hash code for this object.
+            </summary>
+            <returns>The hash code.</returns>
+        </member>
+        <member name="M:Edge.ServerAddress.ToString">
+            <summary>
+            Returns a string representation of the server address.
+            </summary>
+            <returns>A string representation of the server address.</returns>
+        </member>
+        <member name="P:Edge.ServerAddress.Host">
+            <summary>
+            Gets the server's host name.
+            </summary>
+        </member>
+        <member name="P:Edge.ServerAddress.Port">
+            <summary>
+            Gets the server's port number.
+            </summary>
+        </member>
+        <member name="T:Edge.Url">
+            <summary>
+            Represents a URL to an EdgeSpring server.
+            </summary>
+        </member>
+        <member name="M:Edge.Url.#ctor(System.String)">
+            <summary>
+            Initializes a new Url.
+            </summary>
+            <param name="url">String containing the url.</param>
+        </member>
+        <member name="M:Edge.Url.op_Equality(Edge.Url,Edge.Url)">
+            <summary>
+            Compares two Urls.
+            </summary>
+            <param name="lhs">The first URL.</param>
+            <param name="rhs">The other URL.</param>
+            <returns>True if the two URLs are equal (or both null).</returns>
+        </member>
+        <member name="M:Edge.Url.op_Inequality(Edge.Url,Edge.Url)">
+            <summary>
+            Compares two Urls.
+            </summary>
+            <param name="lhs">The first URL.</param>
+            <param name="rhs">The other URL.</param>
+            <returns>True if the two URLs are not equal (or one is null and the other is not).</returns>
+        </member>
+        <member name="M:Edge.Url.ClearCache">
+            <summary>
+            Clears the URL cache. When a URL is parsed it is stored in the cache so that it doesn't have to be
+            parsed again. There is rarely a need to call this method.
+            </summary>
+        </member>
+        <member name="M:Edge.Url.Create(System.String)">
+            <summary>
+            Creates an instance of Url (might be an existing instance if the same URL has been used before).
+            </summary>
+            <param name="url">The URL containing the settings.</param>
+            <returns>An instance of Url.</returns>
+        </member>
+        <member name="M:Edge.Url.Equals(Edge.Url)">
+            <summary>
+            Compares two Urls.
+            </summary>
+            <param name="rhs">The other URL.</param>
+            <returns>True if the two URLs are equal.</returns>
+        </member>
+        <member name="M:Edge.Url.Equals(System.Object)">
+            <summary>
+            Compares two Urls.
+            </summary>
+            <param name="obj">The other URL.</param>
+            <returns>True if the two URLs are equal.</returns>
+        </member>
+        <member name="M:Edge.Url.GetHashCode">
+            <summary>
+            Gets the hash code.
+            </summary>
+            <returns>The hash code.</returns>
+        </member>
+        <member name="M:Edge.Url.ToString">
+            <summary>
+            Returns the canonical URL based on the settings in this UrlBuilder.
+            </summary>
+            <returns>The canonical URL.</returns>
+        </member>
+        <member name="P:Edge.Url.EdgeMartName">
+            <summary>
+            Gets the name of the EdgeMart.
+            </summary>
+        </member>
+        <member name="P:Edge.Url.Server">
+            <summary>
+            Gets the address of the server.
+            </summary>
+        </member>
+        <member name="T:Edge.UrlBuilder">
+            <summary>
+            Represents URL style connection strings to an EdgeSpring server.
+            </summary>
+        </member>
+        <member name="M:Edge.UrlBuilder.#ctor">
+            <summary>
+            Initializes a new UrlBuilder.
+            </summary>
+        </member>
+        <member name="M:Edge.UrlBuilder.#ctor(System.String)">
+            <summary>
+            Initializes a new UrlBuilder.
+            </summary>
+            <param name="url">A string containing a URL.</param>
+        </member>
+        <member name="M:Edge.UrlBuilder.Parse(System.String)">
+            <summary>
+            Parses a URL and sets all settings to match the URL.
+            </summary>
+            <param name="url">The URL.</param>
+        </member>
+        <member name="M:Edge.UrlBuilder.ToUrl">
+            <summary>
+            Creates a new instance of Url based on the settings in this UrlBuilder.
+            </summary>
+            <returns>A new instance of Url.</returns>
+        </member>
+        <member name="M:Edge.UrlBuilder.ToString">
+            <summary>
+            Returns the canonical URL based on the settings in this EsUrlBuilder.
+            </summary>
+            <returns>The canonical URL.</returns>
+        </member>
+        <member name="P:Edge.UrlBuilder.EdgeMartName">
+            <summary>
+            Gets or sets the optional database name.
+            </summary>
+        </member>
+        <member name="P:Edge.UrlBuilder.Server">
+            <summary>
+            Gets or sets the server name.
+            </summary>
+        </member>
+        <member name="T:Edge.QueryResponse`1">
+            <summary>
+            Represents a response from the EdgeSpring REST API.
+            </summary>
+        </member>
+        <member name="M:Edge.QueryResponse`1.#ctor">
+            <summary>
+            Initializes a new QueryResponse from a response string.
+            </summary>
+        </member>
+        <member name="P:Edge.QueryResponse`1.action">
+            <summary>
+            Gets the type of action in the API request.
+            </summary>
+        </member>
+        <member name="P:Edge.QueryResponse`1.limit">
+            <summary>
+            Gets the row limit on the query.
+            </summary>
+        </member>
+        <member name="P:Edge.QueryResponse`1.otherscope">
+            <summary>
+            Gets the scope of the request.
+            </summary>
+        </member>
+        <member name="P:Edge.QueryResponse`1.query">
+            <summary>
+            Gets the query text of the query request.
+            </summary>
+        </member>
+        <member name="P:Edge.QueryResponse`1.query_time">
+            <summary>
+            Gets the query execution time from the output.
+            </summary>
+        </member>
+        <member name="P:Edge.QueryResponse`1.queryId">
+            <summary>
+            Gets the EdgeSpring query id of the request.
+            </summary>
+        </member>
+        <member name="P:Edge.QueryResponse`1.responseId">
+            <summary>
+            Gets the EdgeSpring response id.
+            </summary>
+        </member>
+        <member name="P:Edge.QueryResponse`1.results">
+            <summary>
+            Gets the results of the query.
+            </summary>
+        </member>
+        <member name="T:Edge.QueryResult`1">
+            <summary>
+            Represents the data results from a EdgeSpring REST API response.
+            </summary>
+        </member>
+        <member name="M:Edge.QueryResult`1.#ctor">
+            <summary>
+            Initializes a new QueryResult from a list of records.
+            </summary>
+        </member>
+        <member name="P:Edge.QueryResult`1.description">
+            <summary>
+            Gets the result description.
+            </summary>
+        </member>
+        <member name="P:Edge.QueryResult`1.records">
+            <summary>
+            Gets the records returned in the query result.
+            </summary>
+        </member>
+        <member name="T:Edge.QueryResultDescription">
+            <summary>
+            Represents the query result description.
+            </summary>
+        </member>
+        <member name="M:Edge.QueryResultDescription.#ctor">
+            <summary>
+            Initializes a new instance of QueryResultDescription.
+            </summary>
+        </member>
+        <member name="P:Edge.QueryResultDescription.dimensions">
+            <summary>
+            Gets a list of the dimensions of the query.
+            </summary>
+        </member>
+        <member name="P:Edge.QueryResultDescription.expressions">
+            <summary>
+            Gets a list of expression used in the query.
+            </summary>
+        </member>
+        <member name="P:Edge.QueryResultDescription.filters">
+            <summary>
+            Gets a list of the filters used in the query.
+            </summary>
+        </member>
+        <member name="P:Edge.QueryResultDescription.measures">
+            <summary>
+            Gets a list of measures used in the query.
+            </summary>
+        </member>
+        <member name="P:Edge.QueryResultDescription.values">
+            <summary>
+            Gets of list of values in the query.
+            </summary>
+        </member>
+    </members>
+</doc>

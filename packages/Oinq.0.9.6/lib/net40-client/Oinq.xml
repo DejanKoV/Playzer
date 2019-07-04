@@ -1,0 +1,694 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Oinq</name>
+    </assembly>
+    <members>
+        <member name="T:Oinq.AggregateExpression">
+            <summary>
+            Represents an aggregate expression.
+            </summary>
+        </member>
+        <member name="T:Oinq.PigExpression">
+            <summary>
+            Abstract class representing a Pig query.
+            </summary>
+        </member>
+        <member name="T:Oinq.AggregateSubqueryExpression">
+            <summary>
+            Represents an aggregate subquery expression.
+            </summary>
+        </member>
+        <member name="T:Oinq.AliasedExpression">
+            <summary>
+            Abstract type representing a Pig expression with an alias.
+            </summary>
+        </member>
+        <member name="T:Oinq.SourceAlias">
+            <summary>
+            Represents an alias on the data source.
+            </summary>
+        </member>
+        <member name="T:Oinq.ColumnDeclaration">
+            <summary>
+            Represents a column declaration in a column projection.
+            </summary>
+        </member>
+        <member name="T:Oinq.ColumnExpression">
+            <summary>
+            A custom expression node that represents a reference to a column in a query.
+            </summary>
+        </member>
+        <member name="T:Oinq.IsNullExpression">
+            <summary>
+            Represents an IsNull expression.
+            </summary>
+        </member>
+        <member name="T:Oinq.JoinExpression">
+            <summary>
+            Represents a join in a Pig query.
+            </summary>
+        </member>
+        <member name="T:Oinq.SourceExpression">
+            <summary>
+            Represents an expression describing the load source.
+            </summary>
+        </member>
+        <member name="T:Oinq.PigExpressionVisitor">
+            <summary>
+            Represents an Pig-specific implementation of ExpressionVisitor.
+            </summary>
+        </member>
+        <member name="T:Oinq.ExpressionVisitor">
+            <summary>
+            An abstract base class for an Expression visitor.
+            </summary>
+        </member>
+        <member name="M:Oinq.ExpressionVisitor.#ctor">
+            <summary>
+            Initializes a new instance of the ExpressionVisitor class.
+            </summary>
+        </member>
+        <member name="M:Oinq.ExpressionVisitor.Visit(System.Linq.Expressions.Expression)">
+            <summary>
+            Visits an Expression.
+            </summary>
+            <param path="node">The Expression.</param>
+            <returns>The Expression (posibly modified).</returns>
+        </member>
+        <member name="M:Oinq.ExpressionVisitor.VisitBinary(System.Linq.Expressions.BinaryExpression)">
+            <summary>
+            Visits a BinaryExpression.
+            </summary>
+            <param path="node">The BinaryExpression.</param>
+            <returns>The BinaryExpression (possibly modified).</returns>
+        </member>
+        <member name="M:Oinq.ExpressionVisitor.VisitConditional(System.Linq.Expressions.ConditionalExpression)">
+            <summary>
+            Visits a ConditionalExpression.
+            </summary>
+            <param path="node">The ConditionalExpression.</param>
+            <returns>The ConditionalExpression (possibly modified).</returns>
+        </member>
+        <member name="M:Oinq.ExpressionVisitor.VisitConstant(System.Linq.Expressions.ConstantExpression)">
+            <summary>
+            Visits a ConstantExpression.
+            </summary>
+            <param path="node">The ConstantExpression.</param>
+            <returns>The ConstantExpression (possibly modified).</returns>
+        </member>
+        <member name="M:Oinq.ExpressionVisitor.VisitElementInit(System.Linq.Expressions.ElementInit)">
+            <summary>
+            Visits an ElementInit.
+            </summary>
+            <param path="node">The ElementInit.</param>
+            <returns>The ElementInit (possibly modified).</returns>
+        </member>
+        <member name="M:Oinq.ExpressionVisitor.VisitElementInitList(System.Collections.ObjectModel.ReadOnlyCollection{System.Linq.Expressions.ElementInit})">
+            <summary>
+            Visits an ElementInit list.
+            </summary>
+            <param path="nodes">The ElementInit list.</param>
+            <returns>The ElementInit list (possibly modified).</returns>
+        </member>
+        <member name="M:Oinq.ExpressionVisitor.VisitExpressionList(System.Collections.ObjectModel.ReadOnlyCollection{System.Linq.Expressions.Expression})">
+            <summary>
+            Visits an Expression list.
+            </summary>
+            <param path="nodes">The Expression list.</param>
+            <returns>The Expression list (possibly modified).</returns>
+        </member>
+        <member name="M:Oinq.ExpressionVisitor.VisitInvocation(System.Linq.Expressions.InvocationExpression)">
+            <summary>
+            Visits an InvocationExpression.
+            </summary>
+            <param path="node">The InvocationExpression.</param>
+            <returns>The InvocationExpression (possibly modified).</returns>
+        </member>
+        <member name="M:Oinq.ExpressionVisitor.VisitLambda(System.Linq.Expressions.LambdaExpression)">
+            <summary>
+            Visits a LambdaExpression.
+            </summary>
+            <param path="node">The LambdaExpression.</param>
+            <returns>The LambdaExpression (possibly modified).</returns>
+        </member>
+        <member name="M:Oinq.ExpressionVisitor.VisitListInit(System.Linq.Expressions.ListInitExpression)">
+            <summary>
+            Visits a ListInitExpression.
+            </summary>
+            <param path="node">The ListInitExpression.</param>
+            <returns>The ListInitExpression (possibly modified).</returns>
+        </member>
+        <member name="M:Oinq.ExpressionVisitor.VisitMember(System.Linq.Expressions.MemberExpression)">
+            <summary>
+            Visits a MemberExpression.
+            </summary>
+            <param path="node">The MemberExpression.</param>
+            <returns>The MemberExpression (possibly modified).</returns>
+        </member>
+        <member name="M:Oinq.ExpressionVisitor.VisitMemberAssignment(System.Linq.Expressions.MemberAssignment)">
+            <summary>
+            Visits a MemberAssignment.
+            </summary>
+            <param path="node">The MemberAssignment.</param>
+            <returns>The MemberAssignment (possibly modified).</returns>
+        </member>
+        <member name="M:Oinq.ExpressionVisitor.VisitMemberBinding(System.Linq.Expressions.MemberBinding)">
+            <summary>
+            Visits a MemberBinding.
+            </summary>
+            <param path="node">The MemberBinding.</param>
+            <returns>The MemberBinding (possibly modified).</returns>
+        </member>
+        <member name="M:Oinq.ExpressionVisitor.VisitMemberBindingList(System.Collections.ObjectModel.ReadOnlyCollection{System.Linq.Expressions.MemberBinding})">
+            <summary>
+            Visits a MemberBinding list.
+            </summary>
+            <param path="nodes">The MemberBinding list.</param>
+            <returns>The MemberBinding list (possibly modified).</returns>
+        </member>
+        <member name="M:Oinq.ExpressionVisitor.VisitMemberInit(System.Linq.Expressions.MemberInitExpression)">
+            <summary>
+            Visits a MemberInitExpression.
+            </summary>
+            <param path="node">The MemberInitExpression.</param>
+            <returns>The MemberInitExpression (possibly modified).</returns>
+        </member>
+        <member name="M:Oinq.ExpressionVisitor.VisitMemberListBinding(System.Linq.Expressions.MemberListBinding)">
+            <summary>
+            Visits a MemberListBinding.
+            </summary>
+            <param path="node">The MemberListBinding.</param>
+            <returns>The MemberListBinding (possibly modified).</returns>
+        </member>
+        <member name="M:Oinq.ExpressionVisitor.VisitMemberMemberBinding(System.Linq.Expressions.MemberMemberBinding)">
+            <summary>
+            Visits a MemberMemberBinding.
+            </summary>
+            <param path="node">The MemberMemberBinding.</param>
+            <returns>The MemberMemberBinding (possibly modified).</returns>
+        </member>
+        <member name="M:Oinq.ExpressionVisitor.VisitMethodCall(System.Linq.Expressions.MethodCallExpression)">
+            <summary>
+            Visits a MethodCallExpression.
+            </summary>
+            <param path="node">The MethodCallExpression.</param>
+            <returns>The MethodCallExpression (possibly modified).</returns>
+        </member>
+        <member name="M:Oinq.ExpressionVisitor.VisitNew(System.Linq.Expressions.NewExpression)">
+            <summary>
+            Visits a NewExpression.
+            </summary>
+            <param path="node">The NewExpression.</param>
+            <returns>The NewExpression (possibly modified).</returns>
+        </member>
+        <member name="M:Oinq.ExpressionVisitor.VisitNewArray(System.Linq.Expressions.NewArrayExpression)">
+            <summary>
+            Visits a NewArrayExpression.
+            </summary>
+            <param path="node">The NewArrayExpression.</param>
+            <returns>The NewArrayExpression (possibly modified).</returns>
+        </member>
+        <member name="M:Oinq.ExpressionVisitor.VisitParameter(System.Linq.Expressions.ParameterExpression)">
+            <summary>
+            Visits a ParameterExpression.
+            </summary>
+            <param path="node">The ParameterExpression.</param>
+            <returns>The ParameterExpression (possibly modified).</returns>
+        </member>
+        <member name="M:Oinq.ExpressionVisitor.VisitTypeBinary(System.Linq.Expressions.TypeBinaryExpression)">
+            <summary>
+            Visits a TypeBinaryExpression.
+            </summary>
+            <param path="node">The TypeBinaryExpression.</param>
+            <returns>The TypeBinaryExpression (possibly modified).</returns>
+        </member>
+        <member name="M:Oinq.ExpressionVisitor.VisitUnary(System.Linq.Expressions.UnaryExpression)">
+            <summary>
+            Visits a UnaryExpression.
+            </summary>
+            <param path="node">The UnaryExpression.</param>
+            <returns>The UnaryExpression (possibly modified).</returns>
+        </member>
+        <member name="T:Oinq.ProjectionExpression">
+            <summary>
+            A custom expression representing the construction of one or more result objects from a
+            select expression.
+            </summary>
+        </member>
+        <member name="T:Oinq.SubqueryExpression">
+            <summary>
+            Abstract class representing a subquery.
+            </summary>
+        </member>
+        <member name="T:Oinq.SelectExpression">
+            <summary>
+            Represents a select Pig query.
+            </summary>
+        </member>
+        <member name="T:Oinq.IDataFile">
+            <summary>
+            Interface to represent a Pig data source.
+            </summary>
+        </member>
+        <member name="P:Oinq.IDataFile.Name">
+            <summary>
+            Name of the data file.
+            </summary>
+        </member>
+        <member name="P:Oinq.IDataFile.AbsolutePath">
+            <summary>
+            Absolute path of the data file.
+            </summary>
+        </member>
+        <member name="T:Oinq.PigExtension">
+            <summary>
+            Attribute used for mapping binder method names to Pig extensions.
+            </summary>
+        </member>
+        <member name="M:Oinq.PigExtension.#ctor(System.String)">
+            <summary>
+            Initializes an instance of PigExtension.
+            </summary>
+            <param path="binderName">Name of the binder class.</param>
+        </member>
+        <member name="P:Oinq.PigExtension.BinderName">
+            <summary>
+            Gets the path of the method in the extension.
+            </summary>
+        </member>
+        <member name="T:Oinq.PigFormatter">
+            <summary>
+            Formats the query text for consumption by Pig.
+            </summary>
+        </member>
+        <member name="T:Oinq.PigIgnore">
+            <summary>
+            Attribute indicating whether the field should be included in Pig queries.
+            </summary>
+        </member>
+        <member name="T:Oinq.PigMapping">
+            <summary>
+            Attribute used for mapping field names to Pig query field names.
+            </summary>
+        </member>
+        <member name="M:Oinq.PigMapping.#ctor(System.String)">
+            <summary>
+            Initializes an instance of PigMapping.
+            </summary>
+            <param path="path"></param>
+        </member>
+        <member name="P:Oinq.PigMapping.Name">
+            <summary>
+            Gets the path of the field in the data source.
+            </summary>
+        </member>
+        <member name="T:Oinq.LinqExtensionMethods">
+            <summary>
+            Static class that contains the Pig Linq extension methods.
+            </summary>
+        </member>
+        <member name="M:Oinq.LinqExtensionMethods.AsQueryable``1(Oinq.IDataFile)">
+            <summary>
+            Returns an isntance of IQueryable{{T}} for an IDataFile.
+            </summary>
+            <typeparam path="T">The type of records in an IDataFile.</typeparam>
+            <param path="dataFile">The IDataFile.</param>
+            <returns>An instance of IQueryable{{T}} for an IDataFile.</returns>
+        </member>
+        <member name="T:Oinq.PigSourceMapping">
+            <summary>
+            Attribute used for mapping data sources to Pig query source names.
+            </summary>
+        </member>
+        <member name="M:Oinq.PigSourceMapping.#ctor(System.String)">
+            <summary>
+            Initializes an instance of PigMapping.
+            </summary>
+            <param path="path"></param>
+        </member>
+        <member name="P:Oinq.PigSourceMapping.Path">
+            <summary>
+            Gets the path to the data source.
+            </summary>
+        </member>
+        <member name="T:Oinq.AggregateRewriter">
+            <summary>
+            Rewrite node expressions, moving them into same select expression that has the group-by clause.
+            </summary>
+        </member>
+        <member name="T:Oinq.AliasesProduced">
+            <summary>
+            Returns the set of all _aliases produced by a query source
+            </summary>
+        </member>
+        <member name="T:Oinq.GroupByInfo">
+            <summary>
+            Represents information about GroupBy expressions.
+            </summary>
+        </member>
+        <member name="T:Oinq.Grouping`2">
+            <summary>
+            Represents a collection of objects that have a common key.
+            </summary>
+            <typeparam path="TKey">Key.</typeparam>
+            <typeparam path="TElement">Element.</typeparam>
+        </member>
+        <member name="M:Oinq.Grouping`2.#ctor(`0,System.Collections.Generic.IEnumerable{`1})">
+            <summary>
+            Initializes a new _instance of Grouping{{TKey, TElement}}.
+            </summary>
+            <param path="key">TKey.</param>
+            <param path="group">TElement.</param>
+        </member>
+        <member name="M:Oinq.Grouping`2.GetEnumerator">
+            <summary>
+            Gets an _enumerator of elements.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Oinq.Grouping`2.Key">
+            <summary>
+            Gets the key for a grouping element.
+            </summary>
+        </member>
+        <member name="T:Oinq.ITranslatedQuery">
+            <summary>
+            Represents an actionable query expression.
+            </summary>
+        </member>
+        <member name="P:Oinq.ITranslatedQuery.CommandText">
+            <summary>
+            Query command text.
+            </summary>
+        </member>
+        <member name="P:Oinq.ITranslatedQuery.Source">
+            <summary>
+            Data source for the query.
+            </summary>
+        </member>
+        <member name="P:Oinq.ITranslatedQuery.SourceType">
+            <summary>
+            Type of the data.
+            </summary>
+        </member>
+        <member name="T:Oinq.OrderByRewriter">
+            <summary>
+            Move order-bys to the outermost select
+            </summary>
+        </member>
+        <member name="M:Oinq.OrderByRewriter.PrependOrderings(System.Collections.Generic.IList{Oinq.OrderByExpression})">
+            <summary>
+            Add a sequence of order expressions to an accumulated list, prepending so as
+            to give precedence to the new expressions over any previous expressions
+            </summary>
+            <param path="newOrderings"></param>
+        </member>
+        <member name="M:Oinq.OrderByRewriter.RebindOrderings(System.Collections.Generic.IEnumerable{Oinq.OrderByExpression},Oinq.SourceAlias,System.Collections.Generic.HashSet{Oinq.SourceAlias},System.Collections.Generic.IEnumerable{Oinq.ColumnDeclaration})">
+            <summary>
+            Rebind order expressions to reference a new alias and add to column declarations if necessary
+            </summary>
+        </member>
+        <member name="T:Oinq.Projector">
+            <summary>
+            Projector is a visitor that splits an expression representing the result of a query into
+            two parts, a list of column declarations of expressions that must be evaluated on the server
+            and a _projector expression that describes how to combine the _columns back into the result object.
+            </summary>
+        </member>
+        <member name="T:Oinq.Nominator">
+            <summary>
+            Nominator is a class that walks an expression tree bottom-up, determining the set of
+            candidate expressions that are possible _columns of a select expression.
+            </summary>
+        </member>
+        <member name="T:Oinq.OrderByExpression">
+            <summary>
+            Represents an order by clause.
+            </summary>
+        </member>
+        <member name="M:Oinq.OrderByExpression.#ctor(System.Linq.Expressions.Expression,Oinq.OrderByDirection)">
+            <summary>
+            Initializes an instance of the OrderByExpression class.
+            </summary>
+            <param path="key">An expression identifying the key of the order by clause.</param>
+            <param path="direction">The direction of the order by clause.</param>
+        </member>
+        <member name="P:Oinq.OrderByExpression.Expression">
+            <summary>
+            Gets the expression identifying the key of the order by clause.
+            </summary>
+        </member>
+        <member name="P:Oinq.OrderByExpression.Direction">
+            <summary>
+            Gets the direction of the order by clause.
+            </summary>
+        </member>
+        <member name="T:Oinq.OrderByDirection">
+            <summary>
+            Represents the direction of an order by clause.
+            </summary>
+        </member>
+        <member name="F:Oinq.OrderByDirection.Ascending">
+            <summary>
+            Ascending order.
+            </summary>
+        </member>
+        <member name="F:Oinq.OrderByDirection.Descending">
+            <summary>
+            Descending order.
+            </summary>
+        </member>
+        <member name="T:Oinq.PartialEvaluator">
+            <summary>
+            A static class with methods to partially evaluate an Expression.
+            </summary>
+        </member>
+        <member name="M:Oinq.PartialEvaluator.Evaluate(System.Linq.Expressions.Expression)">
+            <summary>
+            Performs evaluation and replacement of independent sub-trees.
+            </summary>
+            <param path="expression">The root of the expression tree.</param>
+            <returns>A new tree with sub-trees evaluated and replaced.</returns>
+        </member>
+        <member name="M:Oinq.PartialEvaluator.Evaluate(System.Linq.Expressions.Expression,System.Linq.IQueryProvider)">
+            <summary>
+            Performs evaluation and replacement of independent sub-trees.
+            </summary>
+            <param path="expression">The root of the expression tree.</param>
+            <param path="queryProvider">The query provider.</param>
+            <returns>A new tree with sub-trees evaluated and replaced.</returns>
+        </member>
+        <member name="T:Oinq.IPigQueryable">
+            <summary>
+            Interface for accessing Pig query text.
+            </summary>
+        </member>
+        <member name="M:Oinq.IPigQueryable.GetPigQuery">
+            <summary>
+            Gets the Pig query text.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Oinq.Query`1">
+            <summary>
+            An implementation IQueryable{{T}} for querying a data file.
+            </summary>
+            <typeparam path="T">The type of facts being queried.</typeparam>
+        </member>
+        <member name="M:Oinq.Query`1.#ctor(System.Linq.IQueryProvider)">
+            <summary>
+            Initializes a new instance of the Query class.
+            </summary>
+            <param path="provider">The query provider.</param>
+        </member>
+        <member name="M:Oinq.Query`1.#ctor(System.Linq.IQueryProvider,System.Linq.Expressions.Expression)">
+            <summary>
+            Initializes a new instance of the Query class.
+            </summary>
+            <param path="provider">The query provider.</param>
+            <param path="expression">The expression.</param>
+        </member>
+        <member name="M:Oinq.Query`1.GetEnumerator">
+            <summary>
+            Gets an _enumerator for the results of an Pig LINQ query.
+            </summary>
+            <returns>An _enumerator for the results of an Pig LINQ query.</returns>
+        </member>
+        <member name="M:Oinq.Query`1.GetPigQuery">
+            <summary>
+            Gets the Pig query that will be sent to the server when this LINQ query is executed.
+            </summary>
+            <returns>The Pig query.</returns>
+        </member>
+        <member name="M:Oinq.Query`1.ToString">
+            <summary>
+            Returns a textual representation of the Query.
+            </summary>
+            <returns>The String.</returns>
+        </member>
+        <member name="T:Oinq.QueryProvider">
+            <summary>
+            An implementation of IQueryProvider for querying a Pig data source.
+            </summary>
+        </member>
+        <member name="M:Oinq.QueryProvider.#ctor(Oinq.IDataFile)">
+            <summary>
+            Initializes a new instance of the QueryProvider class.
+            </summary>
+            <param path="source">The data source being queried.</param>
+        </member>
+        <member name="M:Oinq.QueryProvider.BuildQueryText``1(Oinq.Query{``0})">
+            <summary>
+            Builds the Pig query that will be sent when the LINQ query is executed.
+            </summary>
+            <typeparam path="T">The type of the objects being queried.</typeparam>
+            <param path="query">The LINQ query.</param>
+            <returns>The query text.</returns>
+        </member>
+        <member name="M:Oinq.QueryProvider.CreateQuery``1(System.Linq.Expressions.Expression)">
+            <summary>
+            Creates a new instance of Query{{T}} for this provider.
+            </summary>
+            <typeparam path="T">The type of the returned elements.</typeparam>
+            <param path="expression">The query expression.</param>
+            <returns>A new instance of Query{{T}}.</returns>
+        </member>
+        <member name="M:Oinq.QueryProvider.CreateQuery(System.Linq.Expressions.Expression)">
+            <summary>
+            Creates a new instance Query{{T}} for this provider. Calls the generic CreateQuery{{T}}
+            to actually create the new Query{{T}} instance.
+            </summary>
+            <param path="expression">The query expression.</param>
+            <returns>A new instance of Query{{T}}.</returns>
+        </member>
+        <member name="M:Oinq.QueryProvider.Execute``1(System.Linq.Expressions.Expression)">
+            <summary>
+            Executes a query.
+            </summary>
+            <typeparam path="TResult">The type of the result.</typeparam>
+            <param path="expression">The query expression.</param>
+            <returns>The result of the query.</returns>
+        </member>
+        <member name="M:Oinq.QueryProvider.Execute(System.Linq.Expressions.Expression)">
+            <summary>
+            Executes a query. Calls the generic method Execute{{T}} to actually execute the query.
+            </summary>
+            <param path="expression">The query expression.</param>
+            <returns>The result of the query.</returns>
+        </member>
+        <member name="M:Oinq.QueryProvider.Execute``1(Oinq.ITranslatedQuery)">
+            <summary>
+            Executes a query.
+            </summary>
+            <param path="translatedQuery">The TranslatedQuery.</param>
+            <returns>The query result.</returns>
+        </member>
+        <member name="P:Oinq.QueryProvider.Source">
+            <summary>
+            Gets the data source.
+            </summary>
+        </member>
+        <member name="T:Oinq.QueryBinder">
+            <summary>
+            QueryBinder is a visitor that converts method calls to LINQ operations into
+            custom PigExpression nodes and references to class members into references to _columns.
+            </summary>
+        </member>
+        <member name="T:Oinq.QueryTranslator">
+            <summary>
+            A translator from LINQ expression queries to Pig queries.
+            </summary>
+        </member>
+        <member name="M:Oinq.QueryTranslator.Translate(System.Linq.IQueryable)">
+            <summary>
+            Translates a LINQ expression into an actionable Pig query.
+            </summary>
+            <param path="query">IQueryable.</param>
+            <returns>A TranslatedQuery.</returns>
+        </member>
+        <member name="M:Oinq.QueryTranslator.Translate(Oinq.QueryProvider,System.Linq.Expressions.Expression)">
+            <summary>
+            Translates a LINQ expression into an actionable Pig query.
+            </summary>
+            <param path="provider">The QueryProvider.</param>
+            <param path="expression">The LINQ expression.</param>
+            <returns>A TranslatedQuery.</returns>
+        </member>
+        <member name="T:Oinq.SelectQuery">
+            <summary>
+            Represents a LINQ select-style query that has been translated to a Pig query.
+            </summary>
+        </member>
+        <member name="T:Oinq.TranslatedQuery">
+            <summary>
+            Represents a LINQ query that has been translated to a Pig query.
+            </summary>
+        </member>
+        <member name="M:Oinq.TranslatedQuery.#ctor(Oinq.IDataFile,System.Type)">
+            <summary>
+            Initializes a new instance of the TranslatedQuery class.
+            </summary>
+            <param path="source">The data _source being queried.</param>
+            <param path="sourceType">The _source type being queried.</param>
+        </member>
+        <member name="P:Oinq.TranslatedQuery.CommandText">
+            <summary>
+            Pig-based command text for the query.
+            </summary>
+        </member>
+        <member name="P:Oinq.TranslatedQuery.Source">
+            <summary>
+            Gets the data _source being queried.
+            </summary>
+        </member>
+        <member name="P:Oinq.TranslatedQuery.SourceType">
+            <summary>
+            Get the _source type being queried.
+            </summary>
+        </member>
+        <member name="M:Oinq.SelectQuery.#ctor(Oinq.IDataFile,System.Type)">
+            <summary>
+            Initializes a new instance of the SelectQuery class.
+            </summary>
+            <param path="source">The data source being queried.</param>
+            <param path="sourceType">The source type.</param>
+        </member>
+        <member name="M:Oinq.SelectQuery.Translate(System.Linq.Expressions.Expression)">
+            <summary>
+            Translates a LINQ query expression tree.
+            </summary>
+            <param path="expression">The LINQ query expression tree.</param>
+        </member>
+        <member name="P:Oinq.SelectQuery.OrderBy">
+            <summary>
+            Gets a list of Expressions that defines the sort order (or null if not specified).
+            </summary>
+        </member>
+        <member name="P:Oinq.SelectQuery.Take">
+            <summary>
+            Gets the Expression that defines how many documents to take (or null if not specified);
+            </summary>
+        </member>
+        <member name="P:Oinq.SelectQuery.Where">
+            <summary>
+            Gets the Expression that defines the where clause (or null if not specified).
+            </summary>
+        </member>
+        <member name="T:Oinq.TypeHelper">
+            <summary>
+            Type-related helper methods
+            </summary>
+        </member>
+        <member name="T:Oinq.SubtreeEvaluator">
+            <summary>
+            Evaluates and replaces sub-trees when first candidate is reached (top-down)
+            </summary>
+        </member>
+        <member name="T:Oinq.UnusedColumnRemover">
+            <summary>
+            Removes column declarations in SelectExpressions that are not referenced.
+            </summary>
+        </member>
+    </members>
+</doc>

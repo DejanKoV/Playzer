@@ -1,0 +1,406 @@
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\obj\Debug\CreatePlaylistWindow.g.cs
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\obj\Debug\ListItem.g.cs
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\obj\Debug\LoginWindow.g.cs
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\obj\Debug\MainWindow.g.cs
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\obj\Debug\MyPlaylists.g.cs
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\obj\Debug\PlaylistInfoControl.g.cs
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\obj\Debug\TrackInPlaylistControl.g.cs
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\obj\Debug\App.g.cs
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\obj\Debug\Playzer_MarkupCompile.cache
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\obj\Debug\Playzer_MarkupCompile.lref
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\obj\Debug\Playzer.csprojAssemblyReference.cache
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\bin\Debug\Playzer.exe.config
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\bin\Debug\Playzer.exe
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\bin\Debug\Playzer.pdb
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\bin\Debug\Ionic.Zip.dll
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\bin\Debug\Newtonsoft.Json.Net20.dll
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\bin\Debug\WebDriver.dll
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\bin\Debug\WebDriver.Support.dll
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\bin\Debug\Newtonsoft.Json.Net20.pdb
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\bin\Debug\Newtonsoft.Json.Net20.xml
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\bin\Debug\WebDriver.xml
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\bin\Debug\WebDriver.Support.xml
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\obj\Debug\CreatePlaylistWindow.baml
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\obj\Debug\ListItem.baml
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\obj\Debug\LoginWindow.baml
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\obj\Debug\MainWindow.baml
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\obj\Debug\MyPlaylists.baml
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\obj\Debug\PlaylistInfoControl.baml
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\obj\Debug\TrackInPlaylistControl.baml
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\obj\Debug\Playzer.g.resources
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\obj\Debug\Playzer.Properties.Resources.resources
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\obj\Debug\Playzer.csproj.GenerateResource.cache
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\obj\Debug\Playzer.csproj.CoreCompileInputs.cache
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\obj\Debug\Playzer.csproj.CopyComplete
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\obj\Debug\Playzer.exe
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\obj\Debug\Playzer.pdb
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\obj\Debug\ExportProgressWindow.g.cs
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\obj\Debug\PlaylistDetailsWindow.g.cs
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\obj\Debug\ExportProgressWindow.baml
+C:\Users\Milica\Desktop\New folder (2)\Playzer\Playzer\obj\Debug\PlaylistDetailsWindow.baml
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\bin\Debug\Playzer.exe.config
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\bin\Debug\Playzer.exe
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\bin\Debug\Playzer.pdb
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\bin\Debug\Ionic.Zip.dll
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\bin\Debug\Newtonsoft.Json.Net20.dll
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\bin\Debug\WebDriver.dll
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\bin\Debug\WebDriver.Support.dll
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\bin\Debug\Newtonsoft.Json.Net20.pdb
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\bin\Debug\Newtonsoft.Json.Net20.xml
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\bin\Debug\WebDriver.xml
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\bin\Debug\WebDriver.Support.xml
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\obj\Debug\Playzer.csprojAssemblyReference.cache
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\obj\Debug\CreatePlaylistWindow.g.cs
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\obj\Debug\ExportProgressWindow.g.cs
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\obj\Debug\ListItem.g.cs
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\obj\Debug\LoginWindow.g.cs
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\obj\Debug\MainWindow.g.cs
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\obj\Debug\MyPlaylists.g.cs
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\obj\Debug\PlaylistDetailsWindow.g.cs
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\obj\Debug\PlaylistInfoControl.g.cs
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\obj\Debug\TrackInPlaylistControl.g.cs
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\obj\Debug\App.g.cs
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\obj\Debug\Playzer_MarkupCompile.cache
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\obj\Debug\Playzer_MarkupCompile.lref
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\obj\Debug\CreatePlaylistWindow.baml
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\obj\Debug\ExportProgressWindow.baml
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\obj\Debug\ListItem.baml
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\obj\Debug\LoginWindow.baml
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\obj\Debug\MainWindow.baml
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\obj\Debug\MyPlaylists.baml
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\obj\Debug\PlaylistDetailsWindow.baml
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\obj\Debug\PlaylistInfoControl.baml
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\obj\Debug\TrackInPlaylistControl.baml
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\obj\Debug\Playzer.g.resources
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\obj\Debug\Playzer.Properties.Resources.resources
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\obj\Debug\Playzer.csproj.GenerateResource.cache
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\obj\Debug\Playzer.csproj.CoreCompileInputs.cache
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\obj\Debug\Playzer.csproj.CopyComplete
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\obj\Debug\Playzer.exe
+C:\Users\Milica\Desktop\New folder (3)\Playzer\Playzer\obj\Debug\Playzer.pdb
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\bin\Debug\Playzer.exe.config
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\bin\Debug\Playzer.exe
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\bin\Debug\Playzer.pdb
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\bin\Debug\Ionic.Zip.dll
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\bin\Debug\Newtonsoft.Json.Net20.dll
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\bin\Debug\WebDriver.dll
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\bin\Debug\WebDriver.Support.dll
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\bin\Debug\Newtonsoft.Json.Net20.pdb
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\bin\Debug\Newtonsoft.Json.Net20.xml
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\bin\Debug\WebDriver.xml
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\bin\Debug\WebDriver.Support.xml
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\obj\Debug\Playzer.csprojAssemblyReference.cache
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\obj\Debug\CreatePlaylistWindow.g.cs
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\obj\Debug\ExportProgressWindow.g.cs
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\obj\Debug\ListItem.g.cs
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\obj\Debug\LoginWindow.g.cs
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\obj\Debug\MainWindow.g.cs
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\obj\Debug\MyPlaylists.g.cs
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\obj\Debug\PlaylistDetailsWindow.g.cs
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\obj\Debug\PlaylistInfoControl.g.cs
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\obj\Debug\TrackInPlaylistControl.g.cs
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\obj\Debug\App.g.cs
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\obj\Debug\Playzer_MarkupCompile.cache
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\obj\Debug\Playzer_MarkupCompile.lref
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\obj\Debug\CreatePlaylistWindow.baml
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\obj\Debug\ExportProgressWindow.baml
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\obj\Debug\ListItem.baml
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\obj\Debug\LoginWindow.baml
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\obj\Debug\MainWindow.baml
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\obj\Debug\MyPlaylists.baml
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\obj\Debug\PlaylistDetailsWindow.baml
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\obj\Debug\PlaylistInfoControl.baml
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\obj\Debug\TrackInPlaylistControl.baml
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\obj\Debug\Playzer.g.resources
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\obj\Debug\Playzer.Properties.Resources.resources
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\obj\Debug\Playzer.csproj.GenerateResource.cache
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\obj\Debug\Playzer.csproj.CoreCompileInputs.cache
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\obj\Debug\Playzer.csproj.CopyComplete
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\obj\Debug\Playzer.exe
+C:\Users\Milica\Desktop\Zadnja verzija\Playzer\Playzer\obj\Debug\Playzer.pdb
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\bin\Debug\phantomjs.exe
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\bin\Debug\Playzer.exe.config
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\bin\Debug\Playzer.exe
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\bin\Debug\Playzer.pdb
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\bin\Debug\Edge.dll
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\bin\Debug\Ionic.Zip.dll
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\bin\Debug\Newtonsoft.Json.Net20.dll
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\bin\Debug\Oinq.dll
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\bin\Debug\RestSharp.dll
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\bin\Debug\System.Linq.Dynamic.dll
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\bin\Debug\WebDriver.dll
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\bin\Debug\WebDriver.Support.dll
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\bin\Debug\Edge.xml
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\bin\Debug\Newtonsoft.Json.Net20.pdb
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\bin\Debug\Newtonsoft.Json.Net20.xml
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\bin\Debug\Oinq.xml
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\bin\Debug\RestSharp.xml
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\bin\Debug\WebDriver.xml
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\bin\Debug\WebDriver.Support.xml
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\obj\Debug\CreatePlaylistWindow.g.cs
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\obj\Debug\ListItem.g.cs
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\obj\Debug\LoginWindow.g.cs
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\obj\Debug\MainWindow.g.cs
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\obj\Debug\MyPlaylists.g.cs
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\obj\Debug\PlaylistDetailsWindow.g.cs
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\obj\Debug\PlaylistInfoControl.g.cs
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\obj\Debug\TrackInPlaylistControl.g.cs
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\obj\Debug\App.g.cs
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\obj\Debug\Playzer_Content.g.cs
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\obj\Debug\Playzer_MarkupCompile.cache
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\obj\Debug\Playzer_MarkupCompile.lref
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\obj\Debug\CreatePlaylistWindow.baml
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\obj\Debug\ListItem.baml
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\obj\Debug\LoginWindow.baml
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\obj\Debug\MainWindow.baml
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\obj\Debug\MyPlaylists.baml
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\obj\Debug\PlaylistDetailsWindow.baml
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\obj\Debug\PlaylistInfoControl.baml
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\obj\Debug\TrackInPlaylistControl.baml
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\obj\Debug\Playzer.g.resources
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\obj\Debug\Playzer.Properties.Resources.resources
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\obj\Debug\Playzer.csproj.GenerateResource.cache
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\obj\Debug\Playzer.csproj.CoreCompileInputs.cache
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\obj\Debug\Playzer.csproj.CopyComplete
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\obj\Debug\Playzer.exe
+C:\Users\Milica\Desktop\Last Version\Playzer\Playzer\obj\Debug\Playzer.pdb
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\bin\Debug\phantomjs.exe
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\bin\Debug\Playzer.exe.config
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\bin\Debug\Playzer.exe
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\bin\Debug\Playzer.pdb
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\bin\Debug\Edge.dll
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\bin\Debug\Ionic.Zip.dll
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\bin\Debug\Newtonsoft.Json.Net20.dll
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\bin\Debug\Oinq.dll
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\bin\Debug\RestSharp.dll
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\bin\Debug\System.Linq.Dynamic.dll
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\bin\Debug\WebDriver.dll
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\bin\Debug\WebDriver.Support.dll
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\bin\Debug\Edge.xml
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\bin\Debug\Newtonsoft.Json.Net20.pdb
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\bin\Debug\Newtonsoft.Json.Net20.xml
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\bin\Debug\Oinq.xml
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\bin\Debug\RestSharp.xml
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\bin\Debug\WebDriver.xml
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\bin\Debug\WebDriver.Support.xml
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\obj\Debug\Playzer.csprojAssemblyReference.cache
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\obj\Debug\CreatePlaylistWindow.g.cs
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\obj\Debug\ListItem.g.cs
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\obj\Debug\LoginWindow.g.cs
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\obj\Debug\MainWindow.g.cs
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\obj\Debug\MyPlaylists.g.cs
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\obj\Debug\PlaylistDetailsWindow.g.cs
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\obj\Debug\PlaylistInfoControl.g.cs
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\obj\Debug\TrackInPlaylistControl.g.cs
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\obj\Debug\App.g.cs
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\obj\Debug\Playzer_Content.g.cs
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\obj\Debug\Playzer_MarkupCompile.cache
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\obj\Debug\Playzer_MarkupCompile.lref
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\obj\Debug\CreatePlaylistWindow.baml
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\obj\Debug\ListItem.baml
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\obj\Debug\LoginWindow.baml
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\obj\Debug\MainWindow.baml
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\obj\Debug\MyPlaylists.baml
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\obj\Debug\PlaylistDetailsWindow.baml
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\obj\Debug\PlaylistInfoControl.baml
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\obj\Debug\TrackInPlaylistControl.baml
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\obj\Debug\Playzer.g.resources
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\obj\Debug\Playzer.Properties.Resources.resources
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\obj\Debug\Playzer.csproj.GenerateResource.cache
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\obj\Debug\Playzer.csproj.CoreCompileInputs.cache
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\obj\Debug\Playzer.csproj.CopyComplete
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\obj\Debug\Playzer.exe
+C:\Users\Milica\Desktop\New folder (5)\Last Version\Playzer\Playzer\obj\Debug\Playzer.pdb
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\bin\Debug\phantomjs.exe
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\bin\Debug\Playzer.exe.config
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\bin\Debug\Playzer.exe
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\bin\Debug\Playzer.pdb
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\bin\Debug\Edge.dll
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\bin\Debug\Ionic.Zip.dll
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\bin\Debug\Newtonsoft.Json.Net20.dll
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\bin\Debug\Oinq.dll
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\bin\Debug\RestSharp.dll
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\bin\Debug\System.Linq.Dynamic.dll
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\bin\Debug\WebDriver.dll
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\bin\Debug\WebDriver.Support.dll
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\bin\Debug\Edge.xml
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\bin\Debug\Newtonsoft.Json.Net20.pdb
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\bin\Debug\Newtonsoft.Json.Net20.xml
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\bin\Debug\Oinq.xml
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\bin\Debug\RestSharp.xml
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\bin\Debug\WebDriver.xml
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\bin\Debug\WebDriver.Support.xml
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\obj\Debug\CreatePlaylistWindow.g.cs
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\obj\Debug\ListItem.g.cs
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\obj\Debug\LoginWindow.g.cs
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\obj\Debug\MainWindow.g.cs
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\obj\Debug\MyPlaylists.g.cs
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\obj\Debug\PlaylistDetailsWindow.g.cs
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\obj\Debug\PlaylistInfoControl.g.cs
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\obj\Debug\TrackInPlaylistControl.g.cs
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\obj\Debug\App.g.cs
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\obj\Debug\Playzer_Content.g.cs
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\obj\Debug\Playzer_MarkupCompile.cache
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\obj\Debug\Playzer_MarkupCompile.lref
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\obj\Debug\CreatePlaylistWindow.baml
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\obj\Debug\ListItem.baml
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\obj\Debug\LoginWindow.baml
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\obj\Debug\MainWindow.baml
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\obj\Debug\MyPlaylists.baml
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\obj\Debug\PlaylistDetailsWindow.baml
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\obj\Debug\PlaylistInfoControl.baml
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\obj\Debug\TrackInPlaylistControl.baml
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\obj\Debug\Playzer.g.resources
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\obj\Debug\Playzer.Properties.Resources.resources
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\obj\Debug\Playzer.csproj.GenerateResource.cache
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\obj\Debug\Playzer.csproj.CoreCompileInputs.cache
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\obj\Debug\Playzer.csproj.CopyComplete
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\obj\Debug\Playzer.exe
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\obj\Debug\Playzer.pdb
+C:\Users\Milica\Desktop\playzer improved\Last Version\Playzer\Playzer\obj\Debug\Playzer.csprojAssemblyReference.cache
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\bin\Debug\phantomjs.exe
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\bin\Debug\Playzer.exe.config
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\bin\Debug\Playzer.exe
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\bin\Debug\Playzer.pdb
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\bin\Debug\Edge.dll
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\bin\Debug\Ionic.Zip.dll
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\bin\Debug\Newtonsoft.Json.Net20.dll
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\bin\Debug\Oinq.dll
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\bin\Debug\RestSharp.dll
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\bin\Debug\System.Linq.Dynamic.dll
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\bin\Debug\WebDriver.dll
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\bin\Debug\WebDriver.Support.dll
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\bin\Debug\Edge.xml
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\bin\Debug\Newtonsoft.Json.Net20.pdb
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\bin\Debug\Newtonsoft.Json.Net20.xml
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\bin\Debug\Oinq.xml
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\bin\Debug\RestSharp.xml
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\bin\Debug\WebDriver.xml
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\bin\Debug\WebDriver.Support.xml
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\obj\Debug\Playzer.csprojAssemblyReference.cache
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\obj\Debug\CreatePlaylistWindow.g.cs
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\obj\Debug\ListItem.g.cs
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\obj\Debug\LoginWindow.g.cs
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\obj\Debug\MainWindow.g.cs
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\obj\Debug\MyPlaylists.g.cs
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\obj\Debug\PlaylistDetailsWindow.g.cs
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\obj\Debug\PlaylistInfoControl.g.cs
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\obj\Debug\TrackInPlaylistControl.g.cs
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\obj\Debug\App.g.cs
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\obj\Debug\Playzer_Content.g.cs
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\obj\Debug\Playzer_MarkupCompile.cache
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\obj\Debug\Playzer_MarkupCompile.lref
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\obj\Debug\CreatePlaylistWindow.baml
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\obj\Debug\ListItem.baml
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\obj\Debug\LoginWindow.baml
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\obj\Debug\MainWindow.baml
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\obj\Debug\MyPlaylists.baml
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\obj\Debug\PlaylistDetailsWindow.baml
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\obj\Debug\PlaylistInfoControl.baml
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\obj\Debug\TrackInPlaylistControl.baml
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\obj\Debug\Playzer.g.resources
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\obj\Debug\Playzer.Properties.Resources.resources
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\obj\Debug\Playzer.csproj.GenerateResource.cache
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\obj\Debug\Playzer.csproj.CoreCompileInputs.cache
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\obj\Debug\Playzer.csproj.CopyComplete
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\obj\Debug\Playzer.exe
+C:\Users\Milica\Downloads\Playzer_2_17_2019 (1)\playzer improved\Last Version\Playzer\Playzer\obj\Debug\Playzer.pdb
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\bin\Debug\phantomjs.exe
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\bin\Debug\Playzer.exe.config
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\bin\Debug\Playzer.exe
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\bin\Debug\Playzer.pdb
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\bin\Debug\Edge.dll
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\bin\Debug\Ionic.Zip.dll
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\bin\Debug\Newtonsoft.Json.Net20.dll
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\bin\Debug\Oinq.dll
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\bin\Debug\RestSharp.dll
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\bin\Debug\System.Linq.Dynamic.dll
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\bin\Debug\WebDriver.dll
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\bin\Debug\WebDriver.Support.dll
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\bin\Debug\Edge.xml
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\bin\Debug\Newtonsoft.Json.Net20.pdb
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\bin\Debug\Newtonsoft.Json.Net20.xml
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\bin\Debug\Oinq.xml
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\bin\Debug\RestSharp.xml
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\bin\Debug\WebDriver.xml
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\bin\Debug\WebDriver.Support.xml
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\obj\Debug\Playzer.csprojAssemblyReference.cache
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\obj\Debug\CreatePlaylistWindow.g.cs
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\obj\Debug\ListItem.g.cs
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\obj\Debug\LoadCSV.g.cs
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\obj\Debug\LoginWindow.g.cs
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\obj\Debug\MainWindow.g.cs
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\obj\Debug\MyPlaylists.g.cs
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\obj\Debug\PlaylistDetailsWindow.g.cs
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\obj\Debug\PlaylistInfoControl.g.cs
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\obj\Debug\TrackInPlaylistControl.g.cs
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\obj\Debug\App.g.cs
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\obj\Debug\Playzer_Content.g.cs
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\obj\Debug\Playzer_MarkupCompile.cache
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\obj\Debug\Playzer_MarkupCompile.lref
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\obj\Debug\CreatePlaylistWindow.baml
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\obj\Debug\ListItem.baml
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\obj\Debug\LoginWindow.baml
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\obj\Debug\MainWindow.baml
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\obj\Debug\MyPlaylists.baml
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\obj\Debug\PlaylistDetailsWindow.baml
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\obj\Debug\PlaylistInfoControl.baml
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\obj\Debug\TrackInPlaylistControl.baml
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\obj\Debug\LoadCSV.baml
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\obj\Debug\Playzer.g.resources
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\obj\Debug\Playzer.Properties.Resources.resources
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\obj\Debug\Playzer.csproj.GenerateResource.cache
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\obj\Debug\Playzer.csproj.CoreCompileInputs.cache
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\obj\Debug\Playzer.csproj.CopyComplete
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\obj\Debug\Playzer.exe
+C:\Users\Milica\Downloads\Playzer_2_18_2019\Playzer\obj\Debug\Playzer.pdb
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\bin\Debug\phantomjs.exe
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\bin\Debug\Playzer.exe.config
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\bin\Debug\Playzer.exe
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\bin\Debug\Playzer.pdb
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\bin\Debug\Edge.dll
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\bin\Debug\Ionic.Zip.dll
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\bin\Debug\Newtonsoft.Json.Net20.dll
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\bin\Debug\Oinq.dll
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\bin\Debug\RestSharp.dll
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\bin\Debug\System.Linq.Dynamic.dll
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\bin\Debug\WebDriver.dll
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\bin\Debug\WebDriver.Support.dll
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\bin\Debug\Edge.xml
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\bin\Debug\Newtonsoft.Json.Net20.pdb
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\bin\Debug\Newtonsoft.Json.Net20.xml
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\bin\Debug\Oinq.xml
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\bin\Debug\RestSharp.xml
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\bin\Debug\WebDriver.xml
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\bin\Debug\WebDriver.Support.xml
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\obj\Debug\Playzer.csprojAssemblyReference.cache
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\obj\Debug\CreatePlaylistWindow.g.cs
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\obj\Debug\ListItem.g.cs
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\obj\Debug\LoadCSV.g.cs
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\obj\Debug\LoginWindow.g.cs
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\obj\Debug\MainWindow.g.cs
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\obj\Debug\MyPlaylists.g.cs
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\obj\Debug\PlaylistDetailsWindow.g.cs
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\obj\Debug\PlaylistInfoControl.g.cs
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\obj\Debug\TrackInPlaylistControl.g.cs
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\obj\Debug\App.g.cs
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\obj\Debug\Playzer_Content.g.cs
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\obj\Debug\Playzer_MarkupCompile.cache
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\obj\Debug\Playzer_MarkupCompile.lref
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\obj\Debug\CreatePlaylistWindow.baml
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\obj\Debug\ListItem.baml
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\obj\Debug\LoadCSV.baml
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\obj\Debug\LoginWindow.baml
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\obj\Debug\MainWindow.baml
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\obj\Debug\MyPlaylists.baml
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\obj\Debug\PlaylistDetailsWindow.baml
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\obj\Debug\PlaylistInfoControl.baml
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\obj\Debug\TrackInPlaylistControl.baml
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\obj\Debug\Playzer.g.resources
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\obj\Debug\Playzer.Properties.Resources.resources
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\obj\Debug\Playzer.csproj.GenerateResource.cache
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\obj\Debug\Playzer.csproj.CoreCompileInputs.cache
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\obj\Debug\Playzer.csproj.CopyComplete
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\obj\Debug\Playzer.exe
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\obj\Debug\Playzer.pdb
+C:\Users\Milica\Desktop\Playzer_2_19_2019\Playzer\bin\Debug\chromedriver.exe

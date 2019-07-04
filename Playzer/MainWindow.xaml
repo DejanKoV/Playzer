@@ -1,0 +1,42 @@
+﻿<Window x:Class="Playzer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Playzer"
+        mc:Ignorable="d"
+        Title="Playzer" Height="450" Width="800">
+ 
+        <Grid>
+        <TabControl HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch" SelectionChanged="TabControl_SelectionChanged">
+            <TabItem Header="Search music">
+                <Grid>
+                    <Label Content="Search music:" Width="90" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <Button x:Name="searchBtn" Click="searchBtn_Click" Content="Search" HorizontalAlignment="Right" VerticalAlignment="Top" Width="75" Margin="0,2,160,0"/>
+                    <Button Content="Load CSV" HorizontalAlignment="Left" Click="Button_Click_1" VerticalAlignment="Top" Width="75" Margin="644,2,0,0"/>
+
+                    <TextBox x:Name="searchBox" HorizontalAlignment="Stretch" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="90,2,250,0"/>
+                    <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="0,30,0,0">
+                        <Grid>
+                            <StackPanel x:Name="searchMusicStack" HorizontalAlignment="Stretch" Margin="0,0,0,30" VerticalAlignment="Stretch">
+
+                            </StackPanel>
+                            <Button x:Name="searchLoadMoreBtn" Click="searchLoadMoreBtn_Click" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="25" Width="100" Content="Load more"></Button>
+                        </Grid>
+                    </ScrollViewer>
+                </Grid>
+            </TabItem>
+            <TabItem Header="My playlists" x:Name="myPlaylistsTab">
+                <Grid>
+                    <ScrollViewer VerticalScrollBarVisibility="Auto" x:Name="myPlaylistsScroller" Margin="0,35,0,0">
+                        <Grid>
+                            <StackPanel x:Name="myPlaylistsContent" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,50">
+                            </StackPanel>
+                            <Button Content="Load more" x:Name="loadMoreMyPlaylists" Visibility="Visible" HorizontalAlignment="Center" VerticalAlignment="Bottom" Click="loadMoreMyPlaylists_Click"></Button>
+                        </Grid>
+                    </ScrollViewer>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
